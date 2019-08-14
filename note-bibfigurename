@@ -1,0 +1,10 @@
+\begin{document}%文档开始后
+    \begin{poster}
+    \renewcommand{\figurename}{Fig.} 
+    \captionsetup[figure]{labelfont={bf},name={Fig.},labelsep=period} %改figure前的caption的字。
+    
+    \renewcommand{\refname}{引用} %改ref的标题，要先用ctex库
+    \renewcommand{\bibname}{引用}
+        
+      \bibliographystyle{abbrv} %调用bib
+        \bibliography{refs}
